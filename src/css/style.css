@@ -118,7 +118,7 @@ li.active .submenu {
 
 .banner {
   height: 515px;
-  background-image: url(https://github.com/xuziang111/cv/blob/master/rs-cover.jpg?raw=true);
+  background-image: url("../img/rs-cover.jpg");
   background-position: center center;
   background-size: cover; }
 
@@ -157,7 +157,7 @@ li.active .submenu {
 .text {
   float: right;
   margin-left: 65px;
-  width: 60%; }
+  width: 50%; }
 
 .picCrad {
   padding: 50px;
