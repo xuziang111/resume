@@ -118,7 +118,7 @@ li.active .submenu {
 
 .banner {
   height: 515px;
-  background-image: url("../img/rs-cover.jpg");
+  background-image: url(http://p5gyxlxbh.bkt.clouddn.com/rs-cover.jpg);
   background-position: center center;
   background-size: cover; }
 
@@ -143,7 +143,9 @@ li.active .submenu {
 .user {
   max-width: 940px;
   margin: 0 auto;
-  background-color: white; }
+  border-radius:10px;
+  background-color: white; 
+}
 
 .picture {
   float: left; 
@@ -161,7 +163,8 @@ li.active .submenu {
 
 .picCrad {
   padding: 50px;
-  margin-top: -300px; }
+  margin-top: -300px; 
+}
 
 hr {
   margin: 20px 0;
@@ -184,7 +187,10 @@ dd {
 
 .media {
   background-color: #E6686A;
-  text-align: center; }
+  text-align: center; 
+  border-bottom-right-radius:10px;
+  border-bottom-left-radius:10px;
+}
 
 .media svg {
   width: 30px;
@@ -243,8 +249,10 @@ dd {
   margin-bottom: 30px; }
 
 .skill ol {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
   list-style: none;
+  justify-content: space-around;
   padding: 42px 50px 10px;
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 5px 0px; 
@@ -252,33 +260,13 @@ dd {
 }
 
 .skill>ol>li {
-  float: left;
-  width: 48%; 
-  height:56px;
+  word-break:break-all;
+  word-wrap:break-word;
+  width: 40%; 
   padding-top:5px;
 }
 
-.skill ol > li:nth-child(even) {
-  float: right; }
 
-.progressBar {
-  height: 5px;
-  background-color: #FAE1E1;
-  border-radius: 2px;
-  margin-bottom: 40px;
-  overflow: hidden; }
-
-.progressBar .progress {
-  height: 5px;
-  background-color: #E6686A;
-  border-radius: 2px;
-  width: 70%;
-  transform: translateX(-100%);
-  transition: all 1s; }
-
-.offset .progress {
-  transition: all 1s;
-  transform: translateX(0); }
 
 .skill > ol > li > h3 {
   font-size: 14px;
@@ -322,7 +310,9 @@ dd {
 
 .leaveMessage {
   margin: 0 auto;
-  text-align: center; }
+  text-align: center; 
+  padding-bottom:20px;
+}
 
 .leaveMessage h2 {
   color: #3d4451;
